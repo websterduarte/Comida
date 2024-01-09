@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cardapio </title>
+    <style>
+
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
+
+
+        body{
+            background-color: blueviolet;
+            font-family: 'Major Mono Display', monospace;
+        }
+
+        p{
+            color:black;
+            font-size: 2em;
+        }
+
+        nav{
+            background-color: white;
+            border-radius: 10px;
+            padding: 5px;
+            box-shadow: 1px 1px 6px 2px black
+        }
+
+        nav a{
+            padding: 50px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        main > p{
+            text-align: center;
+            min-width: 320px;
+            margin: auto;
+            margin-top: 20px;
+            line-height: 2em;
+            margin-bottom: 20px;
+        
+        }
+
+        div{
+            font-weight: bolder;
+        }
+        div >P {
+            display: none;
+        }
+
+        div:hover > p{
+            display: block;
+            
+        }
+
+        div>p>a{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <p>Webster</p>
+    <nav>
+        <a href="#">Contato</a>
+        <a href="#">Manu</a>
+        <a href="#">Ajuda</a>
+    </nav>
+
+    <main>
+        <p>redefinir BEM-VINDO AO  BIBI-KITCHEN. <br>
+            AQUI, SUA SATISFAÇÃO É A NOSSA PREOCUPAÇÃO.
+            SELECIONE SEU PEDIDO PARA PROSSEGUIR.
+        </p>
+
+        <div> passa o mause AQUI para escolher 
+            <p><a href="index pag002.html" target="_blank">Hamburguer</a></p>
+            <p><a href="#">Hot dog</a></p>
+            <p><a href="#">Batata frita</a></p>
+            <p><a href="#">Sorvete</a></p>
+        </div>
+    </main>
+
+
+</body>
+</html>
